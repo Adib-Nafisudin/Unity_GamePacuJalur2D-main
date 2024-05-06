@@ -1,0 +1,5 @@
+Tolong buatkan transisi level bang,
+misal sebelum level dimainkan,
+ditampilkan dlu "panel ini nya"
+dikasih durasi 6 detik + animasi loading
+simpel (looping) bang, tq

@@ -1,0 +1,6 @@
+bacang,telur : speed up 4 detik
+bebek bergerak atas bawah : pelan saja bang, namun pergerakannya menyulitkan player
+kardus,sampah, batang pohon : obstacle berjarak (slow effect) bukan stun
+Lvl 1 : 1:30 
+Lvl 2 : 2:30
+Lvl 3 : 3:30

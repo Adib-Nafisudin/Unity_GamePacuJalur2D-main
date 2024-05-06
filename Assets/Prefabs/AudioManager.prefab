@@ -1,0 +1,144 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1780915199660542183
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1780915199660542201}
+  - component: {fileID: 1780915199660542200}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1780915199660542201
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1780915199660542183}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 176.53595, y: 220.8983, z: -111.53003}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1780915199660542200
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1780915199660542183}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4152cc2513707064bb2b5d884adbf813, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Home
+    clip: {fileID: 8300000, guid: 70fb204a74cb1cf4eb30561836dfff69, type: 3}
+    output: {fileID: -6538053186216928612, guid: f7e20ca8143af5441ab2b551314ae10c, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: Level 1
+    clip: {fileID: 8300000, guid: d5212ac412d43d34da04ee68a53d6350, type: 3}
+    output: {fileID: -6538053186216928612, guid: f7e20ca8143af5441ab2b551314ae10c, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: Level 2
+    clip: {fileID: 8300000, guid: 1f76def755303a3458e429fac9df43c6, type: 3}
+    output: {fileID: -6538053186216928612, guid: f7e20ca8143af5441ab2b551314ae10c, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: Level 3
+    clip: {fileID: 8300000, guid: 883ec01c9ed36114399383725d8babeb, type: 3}
+    output: {fileID: -6538053186216928612, guid: f7e20ca8143af5441ab2b551314ae10c, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: Liminality
+    clip: {fileID: 8300000, guid: 94bdfe66074588b48a0d6a9c47398abc, type: 3}
+    output: {fileID: -6538053186216928612, guid: f7e20ca8143af5441ab2b551314ae10c, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - name: Win
+    clip: {fileID: 8300000, guid: eabda9981dd19cc4ca84c6ff1076a339, type: 3}
+    output: {fileID: -6538053186216928612, guid: f7e20ca8143af5441ab2b551314ae10c, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Countdown
+    clip: {fileID: 8300000, guid: 853354a8e252eb14790043e71598b652, type: 3}
+    output: {fileID: -1463321938431305248, guid: f7e20ca8143af5441ab2b551314ae10c, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Win SFX 2
+    clip: {fileID: 8300000, guid: 62ad1d5d500b3f0468dcbb672c7bee60, type: 3}
+    output: {fileID: -1463321938431305248, guid: f7e20ca8143af5441ab2b551314ae10c, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Button
+    clip: {fileID: 8300000, guid: 0f672069598649e4f837ffae47ab11ba, type: 3}
+    output: {fileID: -1463321938431305248, guid: f7e20ca8143af5441ab2b551314ae10c, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Lose SFX
+    clip: {fileID: 8300000, guid: fe97f29db06f2314cbfc4145eed06d7c, type: 3}
+    output: {fileID: -1463321938431305248, guid: f7e20ca8143af5441ab2b551314ae10c, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Win SFX
+    clip: {fileID: 8300000, guid: 99f9243a298cc1a43b2215dfdecb7c64, type: 3}
+    output: {fileID: -1463321938431305248, guid: f7e20ca8143af5441ab2b551314ae10c, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Button Pedal
+    clip: {fileID: 8300000, guid: ee448428b53b6ae49b165e0ddd145e52, type: 3}
+    output: {fileID: -1463321938431305248, guid: f7e20ca8143af5441ab2b551314ae10c, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Item
+    clip: {fileID: 8300000, guid: 69e63687557dd434b913aea6ce9af25c, type: 3}
+    output: {fileID: -1463321938431305248, guid: f7e20ca8143af5441ab2b551314ae10c, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Obstacle
+    clip: {fileID: 8300000, guid: 3d90accaf6947004284a7567fbc60571, type: 3}
+    output: {fileID: -1463321938431305248, guid: f7e20ca8143af5441ab2b551314ae10c, type: 2}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
